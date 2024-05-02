@@ -1,5 +1,9 @@
 .App {
+  display: flex;
   text-align: center;
+  border: solid black;
+  height: 150vh;
+  margin: 2em;
 }
 
 .App-logo {
@@ -35,4 +39,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.homePage{
+  border: solid purple;
+  width: 50%;
+}
+.employeePage{
+  border: solid blue;
+  width: 50%;
+}
+.header{
+  border: solid lightblue;
+}
+
+.EmployeeListItem{
+  border: solid black;
+  display: flex;
+  align-items: center;
+}
+
+.EmployeeListImage{
+  border-radius: 50%;
+  border: solid black;
+  margin-right: 50px;
+}
+
+.sBar{
+  border: solid green;
+}
+
+.topContainer{
+  display: flex;
 }
